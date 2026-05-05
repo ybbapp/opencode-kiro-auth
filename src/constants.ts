@@ -78,7 +78,8 @@ export const MODEL_MAPPING: Record<string, string> = {
   'deepseek-3.2': 'deepseek-3.2',
   'minimax-m2.5': 'minimax-m2.5',
   'minimax-m2.1': 'minimax-m2.1',
-  'qwen3-coder-next': 'qwen3-coder-next'
+  'qwen3-coder-next': 'qwen3-coder-next',
+  'glm-5': 'glm-5'
 }
 
 export const SUPPORTED_MODELS = Object.keys(MODEL_MAPPING)
